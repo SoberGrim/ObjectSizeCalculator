@@ -128,6 +128,16 @@ public class Starter {
         map.put(3,1);
         System.out.println(ObjectSizeCalculator.getObjectSize(map));
 
+        System.out.println("================ TreeMap ==================");
+        map = new TreeMap<>();
+        System.out.println(ObjectSizeCalculator.getObjectSize(map));
+        map.put(1,1);
+        System.out.println(ObjectSizeCalculator.getObjectSize(map));
+        map.put(2,1);
+        System.out.println(ObjectSizeCalculator.getObjectSize(map));
+        map.put(3,1);
+        System.out.println(ObjectSizeCalculator.getObjectSize(map));
+
 
         System.out.println("================ Primitive Types ==================");
 
