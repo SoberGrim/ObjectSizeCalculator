@@ -12,29 +12,29 @@ Vector, Stack, ArrayList: 16 byte<br>
 _(one link 8 byte + one Integer 8 byte)_<br>
 <br>
 LinkedList: 40 byte<br>
-(node 8 byte, prev\next\current link 8 byte each, Integer 8 byte)<br>
+_(node 8 byte, prev\next\current link 8 byte each, Integer 8 byte)_<br>
 <br>
 # Queue
 ArrayDeque, PriorityQueue: 16 byte<br>
-(one link 8 byte + one Integer 8 byte)<br>
+_(one link 8 byte + one Integer 8 byte)_<br>
 <br>
 # Set
 HashSet: 48 byte<br>
-(node 8 byte, key\value links 8 byte each, key\value Integers 8 byte each, next element in bucket link 8 byte)<br>
+_(node 8 byte, key\value links 8 byte each, key\value Integers 8 byte each, next element in bucket link 8 byte)_<br>
 
 LinkedHashSet: 56 byte<br>
-(HashSet size + one link 8 byte)
+_(HashSet size + one link 8 byte)_
 
 TreeSet: 56 byte<br>
-(node 8 byte, key\value links 8 byte each, key\value Integers 8 byte each, two child elements 8 byte each)<br>
+_(node 8 byte, key\value links 8 byte each, key\value Integers 8 byte each, two child elements 8 byte each)_<br>
 <br>
 
 # Map
 HashMap: 48 byte<br>
-(same as HashSet)<br>
+_(same as HashSet)_<br>
 <br>
 LinkedHashMap: 56 byte<br>
-(same as HashMap)<br>
+_(same as HashMap)_<br>
 <br>
 TreeMap: 56 byte<br>
-(same as TreeSet)<br>
+_(same as TreeSet)_<br>
