@@ -1,6 +1,6 @@
 # ObjectSizeCalculator
 In Java 8 (until Java 11) there is a method _'getObjectSize'_ in _'jdk.nashorn.internal.ir.debug.ObjectSizeCalculator'_ class.<br>
-This method lets us measure any Object size, containing any other elements or Objects inside it (deep Object size)<br>
+This method lets us measure any Object size, containing any other elements or Objects inside it (that's called deep Object size)<br>
 <br>
 This method was added in Java 8 as a part of 'Nashorn JavaScript engine' and depricated in Java 11.<br>
 <br>
