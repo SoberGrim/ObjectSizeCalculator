@@ -2,7 +2,7 @@
 In Java 8 (until Java 11) there is a method _'getObjectSize'_ in _'jdk.nashorn.internal.ir.debug.ObjectSizeCalculator'_ class.<br>
 This method lets us measure any Object size, containing any other elements or Objects inside it (that's called deep Object size)<br>
 <br>
-This method was added in Java 8 as a part of 'Nashorn JavaScript engine' and depricated in Java 11.<br>
+_'getObjectSize'_ was added in Java 8 as a part of 'Nashorn JavaScript engine' and depricated in Java 11.<br>
 <br>
 Here is an example, showing how to get exact byte size of a single Integer in any JCF class (or a deep size of any other object in Java)
 
