@@ -9,7 +9,7 @@ Here is an example, showing how to get exact byte size of a single Integer in an
 
 # List
 Vector, Stack, ArrayList: 16 byte<br>
-(one link 8 byte + one Integer 8 byte)<br>
+_(one link 8 byte + one Integer 8 byte)_<br>
 <br>
 LinkedList: 40 byte<br>
 (node 8 byte, prev\next\current link 8 byte each, Integer 8 byte)<br>
