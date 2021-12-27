@@ -9,15 +9,29 @@ Here is an example, showing how to get exact byte size of a single Integer in an
 
 # List
 Vector, Stack, ArrayList: 16 byte<br>
+(one link 8 byte + one Integer 8 byte)<br>
+<br>
 LinkedList: 40 byte<br>
-
+(node 8 byte, prev\next\current link 8 byte each, Integer 8 byte)<br>
+<br>
 # Queue
 ArrayDeque, PriorityQueue: 16 byte<br>
- 
+(one link 8 byte + one Integer 8 byte)<br>
+<br>
 # Set
 HashSet: 48 byte<br>
-LinkedHashSet, TreeSet: 56 byte<br>
+(node 8 byte, key\value links 8 byte each, key\value Integers 8 byte each, next element in bucket link 8 byte)<br>
+
+LinkedHashSet: 56 byte<br>
+(HashSet size + one link 8 byte)
+
+TreeSet: 56 byte<br>
+(node 8 byte, key\value links 8 byte each, key\value Integers 8 byte each, two child elements 8 byte each)<br>
+<br>
 
 # Map
 HashMap: 48 byte<br>
+(same as HashSet)<br>
+<br>
 LinkedHashMap: 56 byte<br>
+(same as HashMap)<br>
