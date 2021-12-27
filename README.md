@@ -4,7 +4,7 @@ This method lets us measure any Object size, containing any other elements or Ob
 <br>
 _'getObjectSize'_ was added in Java 8 as a part of _'Nashorn JavaScript engine'_ and depricated in Java 11.<br>
 <br>
-Here is an example, showing how to get exact byte size of a single Integer in any Collections Framework class (or of any other object in Java)
+This code is an example, showing how to get exact byte size of a single Integer in any Collections Framework class (or of any other object in Java)
 
 # Summary for x64 system:
 (a single +1 Integer element costs):
