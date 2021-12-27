@@ -3,20 +3,20 @@ In Java 8 (till Java 11) there is a nice method 'ObjectSizeCalculator.getObjectS
 <br>
 Here is an example, showing how to get exact byte size of a single Integer in any JCF class.
 
-Summary for x64 system:
+# Summary for x64 system:
 (a single +1 Integer element costs):
 
-# Lists
-Vector, Stack, ArrayList: 16 byte
-LinkedList: 40 byte
+# List
+Vector, Stack, ArrayList: 16 byte<br>
+LinkedList: 40 byte<br>
 
-# Queues
-ArrayDeque, PriorityQueue: 16 byte,
+# Queue
+ArrayDeque, PriorityQueue: 16 byte<br>
  
-# Sets
-HashSet: 48 byte,
-LinkedHashSet, TreeSet: 56 byte
+# Set
+HashSet: 48 byte<br>
+LinkedHashSet, TreeSet: 56 byte<br>
 
-# Maps
-HashMap 48 byte,
-LinkedHashMap 56 byte
+# Map
+HashMap: 48 byte<br>
+LinkedHashMap: 56 byte<br>
