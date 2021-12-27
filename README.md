@@ -1,5 +1,5 @@
 # ObjectSizeCalculator
-In Java 8 (till Java 11) there is a nice method _'getObjectSize'_ in _'jdk.nashorn.internal.ir.debug.ObjectSizeCalculator'_ class.<br>
+In Java 8 (until Java 11) there is a nice method _'getObjectSize'_ in _'jdk.nashorn.internal.ir.debug.ObjectSizeCalculator'_ class.<br>
 (part of the Nashorn JavaScript engine, added in Java 8 and depricated in Java 11)<br>
 <br>
 Here is an example, showing how to get exact byte size of a single Integer in any JCF class.
