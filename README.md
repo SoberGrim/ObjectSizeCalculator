@@ -6,17 +6,17 @@ Here is an example, showing how to get exact byte size of a single Integer in an
 Summary for x64 system:
 (a single +1 Integer element costs):
 
-#Lists
+# Lists
 Vector, Stack, ArrayList: 16 byte
 LinkedList: 40 byte
 
-#Queues
+# Queues
 ArrayDeque, PriorityQueue: 16 byte,
  
-#Sets
+# Sets
 HashSet: 48 byte,
 LinkedHashSet, TreeSet: 56 byte
 
-#Maps
+# Maps
 HashMap 48 byte,
 LinkedHashMap 56 byte
