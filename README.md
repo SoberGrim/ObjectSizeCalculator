@@ -35,3 +35,6 @@ HashMap: 48 byte<br>
 <br>
 LinkedHashMap: 56 byte<br>
 (same as HashMap)<br>
+<br>
+TreeMap: 56 byte<br>
+(same as TreeSet)<br>
